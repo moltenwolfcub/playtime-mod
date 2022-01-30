@@ -6,7 +6,7 @@ showAsResourcePack=false
 
 [[mods]]
 modId="playtime"
-version="1.0.0.0"
+version="1.18.1-1.0.0"
 displayName="Playtime"
 displayURL="https://github.com/moltenwolfcub/playtime-mod"
 logoFile="logo.png"
@@ -15,3 +15,17 @@ authors="MoltenWolfCub"
 description='''
 All the fun in one mod.
 '''
+
+[[dependencies.playtime]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.playtime]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
