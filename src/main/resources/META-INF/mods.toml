@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[38,)"
+license="All Rights Reserved"
+issueTrackerURL="github.com/moltenwolfcub/MinecraftForge/issues"
+showAsResourcePack=false
+
+    [[mods]]
+      modId="examplemod"
+      version="1.0.0.0"
+      displayName="Example Mod"
+      updateJSONURL="minecraftforge.net/versions.json"
+      displayURL="minecraftforge.net"
+      logoFile="logo.png"
+      credits="I'd like to thank my mother and father."
+      authors="Author"
+      description='''
+      Lets you craft dirt into diamonds. This is a traditional mod that has existed for eons. It is ancient. The holy Notch created it. Jeb rainbowfied it. Dinnerbone made it upside down. Etc.
+      '''
+
+      [[dependencies.examplemod]]
+        modId="forge"
+        mandatory=true
+        versionRange="[38,)"
+        ordering="NONE"
+        side="BOTH"
+
+      [[dependencies.examplemod]]
+        modId="minecraft"
+        mandatory=true
+        versionRange="[1.18,1.19)"
+        ordering="NONE"
+        side="BOTH"
+
+modLoader = "javafml"
+loaderVersion = "[39,)"
+issueTrackerURL = "https://github.com/refinedmods/refinedstorage"
+license="MIT"
+[[mods]]
+modId="refinedstorage"
+version="${version}"
+displayName="Refined Storage"
+displayURL="https://refinedmods.com/refined-storage"
+logoFile="logo.png"
+authors = "Refined Mods"
+description = '''
+An elegant solution to your hoarding problem
+'''
