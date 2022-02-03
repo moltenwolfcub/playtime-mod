@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "fff",
+      "#s#",
+      "###"
+    ],
+    "key": {
+      "f": {
+        "item": "playtime:foam"
+      },
+      "#": {
+        "tag": "minecraft:wool"
+      },
+      "s": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "result": {
+      "item": "playtime:softplay_block",
+      "count": 8
+    }
+}

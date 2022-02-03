@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "f",
+      "w"
+    ],
+    "key": {
+      "w": {
+        "tag": "minecraft:wool"
+      },
+      "f": {
+          "tag": "forge:feathers"
+      }
+    },
+    "result": {
+      "item": "playtime:foam",
+      "count": 4
+    }
+}
