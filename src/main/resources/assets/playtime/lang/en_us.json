@@ -3,5 +3,10 @@
 
     "itemGroup.playtime": "Playtime",
     
-    "item.playtime.foam": "Foam"
+    "item.playtime.foam": "Foam",
+    "item.playtime.foam_sword": "Foam Sword",
+    "item.playtime.foam_pickaxe": "Foam Pickaxe",
+    "item.playtime.foam_axe": "Foam Axe",
+    "item.playtime.foam_shovel": "Foam Shovel",
+    "item.playtime.foam_hoe": "Foam Hoe"
 }
