@@ -8,5 +8,9 @@
     "item.playtime.foam_pickaxe": "Foam Pickaxe",
     "item.playtime.foam_axe": "Foam Axe",
     "item.playtime.foam_shovel": "Foam Shovel",
-    "item.playtime.foam_hoe": "Foam Hoe"
+    "item.playtime.foam_hoe": "Foam Hoe",
+    "item.playtime.foam_helmet": "Foam Helmet",
+    "item.playtime.foam_chestplate": "Foam Chestplate",
+    "item.playtime.foam_leggings": "Foam Leggings",
+    "item.playtime.foam_boots": "Foam Boots"
 }
