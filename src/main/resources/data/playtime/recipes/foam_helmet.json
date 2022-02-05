@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "fff",
+        "f f"
+    ],
+    "key": {
+        "f": {
+            "item": "playtime:foam"
+        }
+    },
+    "result": {
+        "item": "playtime:foam_helmet"
+    }
+}

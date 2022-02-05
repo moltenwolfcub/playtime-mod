@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "fff",
+        "f f",
+        "f f"
+    ],
+    "key": {
+        "f": {
+            "item": "playtime:foam"
+        }
+    },
+    "result": {
+        "item": "playtime:foam_leggings"
+    }
+}

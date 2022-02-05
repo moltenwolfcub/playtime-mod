@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "f",
+        "s",
+        "s"
+    ],
+    "key": {
+        "f": {
+            "item": "playtime:foam"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "playtime:foam_shovel"
+    }
+}
