@@ -4,6 +4,7 @@ import com.moltenwolfcub.playtime.Playtime;
 import com.moltenwolfcub.playtime.armor.ModArmorMaterial;
 import com.moltenwolfcub.playtime.blocks.BlockItemBase;
 import com.moltenwolfcub.playtime.blocks.SoftplayBlock;
+import com.moltenwolfcub.playtime.items.CocktailSausage;
 import com.moltenwolfcub.playtime.items.ItemBase;
 import com.moltenwolfcub.playtime.tools.ModItemTier;
 
@@ -33,6 +34,8 @@ public class RegistryHandler {
 
     // Items
     public static final RegistryObject<Item> FOAM = ITEMS.register("foam", ItemBase::new);
+    public static final RegistryObject<Item> SAUSAGE = ITEMS.register("sausage", ItemBase::new);
+    public static final RegistryObject<CocktailSausage> COCKTAIL_SAUSAGE = ITEMS.register("cocktail_sausage", CocktailSausage::new);
 
     // Tools
     public static final RegistryObject<SwordItem> FOAM_SWORD = ITEMS.register("foam_sword", () -> new SwordItem(ModItemTier.FOAM, 2, -2.4f, new Item.Properties().tab(Playtime.TAB)));

@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:cooked_porkchop"
+        }
+    ],
+    "result": {
+        "item": "playtime:sausage",
+        "count": 9
+    }
+}
