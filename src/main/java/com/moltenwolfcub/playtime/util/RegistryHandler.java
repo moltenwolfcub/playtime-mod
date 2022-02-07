@@ -2,8 +2,8 @@ package com.moltenwolfcub.playtime.util;
 
 import com.moltenwolfcub.playtime.Playtime;
 import com.moltenwolfcub.playtime.armor.ModArmorMaterial;
-import com.moltenwolfcub.playtime.blocks.BlockItemBase;
 import com.moltenwolfcub.playtime.blocks.SoftplayBlock;
+import com.moltenwolfcub.playtime.items.BlockItemBase;
 import com.moltenwolfcub.playtime.items.CocktailSausage;
 import com.moltenwolfcub.playtime.items.ItemBase;
 import com.moltenwolfcub.playtime.tools.ModItemTier;

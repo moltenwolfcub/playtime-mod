@@ -1,4 +1,4 @@
-package com.moltenwolfcub.playtime.blocks;
+package com.moltenwolfcub.playtime.items;
 
 import com.moltenwolfcub.playtime.Playtime;
 
