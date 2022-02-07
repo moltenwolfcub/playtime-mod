@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+      "playtime:neptunium_ore",
+      "playtime:raw_neptunium_block",
+      "playtime:neptunium_block"
+    ]
+  }

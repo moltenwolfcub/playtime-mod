@@ -2,6 +2,9 @@ package com.moltenwolfcub.playtime.util;
 
 import com.moltenwolfcub.playtime.Playtime;
 import com.moltenwolfcub.playtime.armor.ModArmorMaterial;
+import com.moltenwolfcub.playtime.blocks.NeptuniumBlock;
+import com.moltenwolfcub.playtime.blocks.NeptuniumOre;
+import com.moltenwolfcub.playtime.blocks.RawNeptuniumBlock;
 import com.moltenwolfcub.playtime.blocks.SoftplayBlock;
 import com.moltenwolfcub.playtime.items.BlockItemBase;
 import com.moltenwolfcub.playtime.items.CocktailSausage;
@@ -36,6 +39,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> FOAM = ITEMS.register("foam", ItemBase::new);
     public static final RegistryObject<Item> SAUSAGE = ITEMS.register("sausage", ItemBase::new);
     public static final RegistryObject<CocktailSausage> COCKTAIL_SAUSAGE = ITEMS.register("cocktail_sausage", CocktailSausage::new);
+    public static final RegistryObject<Item> RAW_NEPTUNIUM = ITEMS.register("raw_neptunium", ItemBase::new);
+    public static final RegistryObject<Item> NEPTUNIUM_INGOT = ITEMS.register("neptunium_ingot", ItemBase::new);
 
     // Tools
     public static final RegistryObject<SwordItem> FOAM_SWORD = ITEMS.register("foam_sword", () -> new SwordItem(ModItemTier.FOAM, 2, -2.4f, new Item.Properties().tab(Playtime.TAB)));
@@ -52,8 +57,14 @@ public class RegistryHandler {
 
     // Blocks
     public static final RegistryObject<Block> SOFTPLAY_BLOCK = BLOCKS.register("softplay_block", SoftplayBlock::new);
+    public static final RegistryObject<Block> NEPTUNIUM_ORE_BLOCK = BLOCKS.register("neptunium_ore", NeptuniumOre::new);
+    public static final RegistryObject<Block> NEPTUNIUM_BLOCK = BLOCKS.register("neptunium_block", NeptuniumBlock::new);
+    public static final RegistryObject<Block> RAW_NEPTUNIUM_BLOCK = BLOCKS.register("raw_neptunium_block", RawNeptuniumBlock::new);
 
     // BlockItems
     public static final RegistryObject<Item> SOFTPLAY_BLOCK_ITEM = ITEMS.register("softplay_block", () -> new BlockItemBase(SOFTPLAY_BLOCK.get()));
+    public static final RegistryObject<Item> NEPTUNIUM_ORE_BLOCK_ITEM = ITEMS.register("neptunium_ore", () -> new BlockItemBase(NEPTUNIUM_ORE_BLOCK.get()));
+    public static final RegistryObject<Item> NEPTUNIUM_BLOCK_ITEM = ITEMS.register("neptunium_block", () -> new BlockItemBase(NEPTUNIUM_BLOCK.get()));
+    public static final RegistryObject<Item> RAW_NEPTUNIUM_BLOCK_ITEM = ITEMS.register("raw_neptunium_block", () -> new BlockItemBase(RAW_NEPTUNIUM_BLOCK.get()));
 
 }
