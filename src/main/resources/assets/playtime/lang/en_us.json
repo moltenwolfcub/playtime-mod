@@ -2,6 +2,9 @@
     "block.playtime.softplay_block": "Softplay Block",
     "block.playtime.neptunium_block": "Neptunium Block",
     "block.playtime.neptunium_ore": "Neptunium Ore",
+    "block.playtime.deepslate_neptunium_ore": "Deepslate Neptunium Ore",
+    "block.playtime.nether_neptunium_ore": "Nether Neptunium Ore",
+    "block.playtime.end_neptunium_ore": "End Neptunium Ore",
     "block.playtime.raw_neptunium_block": "Raw Neptunium Block",
 
     "itemGroup.playtime": "Playtime",

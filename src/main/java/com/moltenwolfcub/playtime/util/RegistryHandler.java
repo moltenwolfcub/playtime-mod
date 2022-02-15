@@ -2,8 +2,11 @@ package com.moltenwolfcub.playtime.util;
 
 import com.moltenwolfcub.playtime.Playtime;
 import com.moltenwolfcub.playtime.armor.ModArmorMaterial;
+import com.moltenwolfcub.playtime.blocks.DeepslateNeptuniumOre;
+import com.moltenwolfcub.playtime.blocks.EndNeptuniumOre;
 import com.moltenwolfcub.playtime.blocks.NeptuniumBlock;
 import com.moltenwolfcub.playtime.blocks.NeptuniumOre;
+import com.moltenwolfcub.playtime.blocks.NetherNeptuniumOre;
 import com.moltenwolfcub.playtime.blocks.RawNeptuniumBlock;
 import com.moltenwolfcub.playtime.blocks.SoftplayBlock;
 import com.moltenwolfcub.playtime.items.BlockItemBase;
@@ -57,14 +60,20 @@ public class RegistryHandler {
 
     // Blocks
     public static final RegistryObject<Block> SOFTPLAY_BLOCK = BLOCKS.register("softplay_block", SoftplayBlock::new);
-    public static final RegistryObject<Block> NEPTUNIUM_ORE_BLOCK = BLOCKS.register("neptunium_ore", NeptuniumOre::new);
     public static final RegistryObject<Block> NEPTUNIUM_BLOCK = BLOCKS.register("neptunium_block", NeptuniumBlock::new);
     public static final RegistryObject<Block> RAW_NEPTUNIUM_BLOCK = BLOCKS.register("raw_neptunium_block", RawNeptuniumBlock::new);
+    public static final RegistryObject<Block> NEPTUNIUM_ORE_BLOCK = BLOCKS.register("neptunium_ore", NeptuniumOre::new);
+    public static final RegistryObject<Block> DEEPSLATE_NEPTUNIUM_ORE_BLOCK = BLOCKS.register("deepslate_neptunium_ore", DeepslateNeptuniumOre::new);
+    public static final RegistryObject<Block> END_NEPTUNIUM_ORE_BLOCK = BLOCKS.register("end_neptunium_ore", EndNeptuniumOre::new);
+    public static final RegistryObject<Block> NETHER_NEPTUNIUM_ORE_BLOCK = BLOCKS.register("nether_neptunium_ore", NetherNeptuniumOre::new);
 
     // BlockItems
     public static final RegistryObject<Item> SOFTPLAY_BLOCK_ITEM = ITEMS.register("softplay_block", () -> new BlockItemBase(SOFTPLAY_BLOCK.get()));
-    public static final RegistryObject<Item> NEPTUNIUM_ORE_BLOCK_ITEM = ITEMS.register("neptunium_ore", () -> new BlockItemBase(NEPTUNIUM_ORE_BLOCK.get()));
     public static final RegistryObject<Item> NEPTUNIUM_BLOCK_ITEM = ITEMS.register("neptunium_block", () -> new BlockItemBase(NEPTUNIUM_BLOCK.get()));
     public static final RegistryObject<Item> RAW_NEPTUNIUM_BLOCK_ITEM = ITEMS.register("raw_neptunium_block", () -> new BlockItemBase(RAW_NEPTUNIUM_BLOCK.get()));
+    public static final RegistryObject<Item> NEPTUNIUM_ORE_BLOCK_ITEM = ITEMS.register("neptunium_ore", () -> new BlockItemBase(NEPTUNIUM_ORE_BLOCK.get()));
+    public static final RegistryObject<Item> DEEPSLATE_NEPTUNIUM_ORE_BLOCK_ITEM = ITEMS.register("deepslate_neptunium_ore", () -> new BlockItemBase(DEEPSLATE_NEPTUNIUM_ORE_BLOCK.get()));
+    public static final RegistryObject<Item> END_NEPTUNIUM_ORE_BLOCK_ITEM = ITEMS.register("end_neptunium_ore", () -> new BlockItemBase(END_NEPTUNIUM_ORE_BLOCK.get()));
+    public static final RegistryObject<Item> NETHER_NEPTUNIUM_ORE_BLOCK_ITEM = ITEMS.register("nether_neptunium_ore", () -> new BlockItemBase(NETHER_NEPTUNIUM_ORE_BLOCK.get()));
 
 }
