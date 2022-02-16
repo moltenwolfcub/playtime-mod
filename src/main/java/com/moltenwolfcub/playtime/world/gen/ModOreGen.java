@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.function.Supplier;
 
 import com.moltenwolfcub.playtime.Playtime;
-import com.moltenwolfcub.playtime.util.RegistryHandler;
+import com.moltenwolfcub.playtime.init.ModBlocks;
 
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.features.OreFeatures;
@@ -56,10 +56,10 @@ public class ModOreGen {
         final ConfiguredFeature<?, ?> neptuniumOre = FeatureUtils.register("neptunium_ore",
             Feature.ORE.configured(new OreConfiguration(List.of(
                 OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, 
-                        RegistryHandler.NEPTUNIUM_ORE_BLOCK.get().defaultBlockState()),
+                        ModBlocks.NEPTUNIUM_ORE_BLOCK.get().defaultBlockState()),
                         
                     OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES,
-                        RegistryHandler.DEEPSLATE_NEPTUNIUM_ORE_BLOCK.get().defaultBlockState())),
+                        ModBlocks.DEEPSLATE_NEPTUNIUM_ORE_BLOCK.get().defaultBlockState())),
 
                     10)));
 
@@ -74,7 +74,7 @@ public class ModOreGen {
         final ConfiguredFeature<?, ?> netherNeptuniumOre = FeatureUtils.register("nether_neptunium_ore",
             Feature.ORE.configured(new OreConfiguration(List.of(
                 OreConfiguration.target(OreFeatures.NETHERRACK,
-                    RegistryHandler.NETHER_NEPTUNIUM_ORE_BLOCK.get().defaultBlockState())),
+                    ModBlocks.NETHER_NEPTUNIUM_ORE_BLOCK.get().defaultBlockState())),
                     
                 6)));
 
@@ -89,7 +89,7 @@ public class ModOreGen {
         final ConfiguredFeature<?, ?> endNeptuniumOre = FeatureUtils.register("end_neptunium_ore",
             Feature.ORE.configured(new OreConfiguration(List.of(
                 OreConfiguration.target(ENDSTONE_REPLACEABLES,
-                    RegistryHandler.END_NEPTUNIUM_ORE_BLOCK.get().defaultBlockState())),
+                    ModBlocks.END_NEPTUNIUM_ORE_BLOCK.get().defaultBlockState())),
                     
                 8)));
 

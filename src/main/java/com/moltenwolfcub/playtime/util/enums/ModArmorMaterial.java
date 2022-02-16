@@ -1,9 +1,9 @@
-package com.moltenwolfcub.playtime.armor;
+package com.moltenwolfcub.playtime.util.enums;
 
 import java.util.function.Supplier;
 
 import com.moltenwolfcub.playtime.Playtime;
-import com.moltenwolfcub.playtime.util.RegistryHandler;
+import com.moltenwolfcub.playtime.init.ModItems;
 
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -16,7 +16,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 public enum ModArmorMaterial implements ArmorMaterial{
 
     FOAM(Playtime.MOD_ID + ":foam", 8, new int[] { 1, 2, 3, 1 }, 5,
-        SoundEvents.ARMOR_EQUIP_GENERIC, 0.0F, () -> { return Ingredient.of(RegistryHandler.FOAM.get()); }, 0.0f);
+        SoundEvents.ARMOR_EQUIP_GENERIC, 0.0F, () -> { return Ingredient.of(ModItems.FOAM.get()); }, 0.0f);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] { 11, 16, 15, 13 };
     private final String name;

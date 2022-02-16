@@ -1,8 +1,8 @@
-package com.moltenwolfcub.playtime.tools;
+package com.moltenwolfcub.playtime.util.enums;
 
 import java.util.function.Supplier;
 
-import com.moltenwolfcub.playtime.util.RegistryHandler;
+import com.moltenwolfcub.playtime.init.ModItems;
 
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -10,7 +10,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 public enum ModItemTier implements Tier{
 
     FOAM(0, 100, 3.0f, 1.0f, 5, () -> {
-        return Ingredient.of(RegistryHandler.FOAM.get());
+        return Ingredient.of(ModItems.FOAM.get());
     });
 
     private final int level;

@@ -1,7 +1,7 @@
 package com.moltenwolfcub.playtime.items.group;
 
 import com.moltenwolfcub.playtime.Playtime;
-import com.moltenwolfcub.playtime.util.RegistryHandler;
+import com.moltenwolfcub.playtime.init.ModItems;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -13,6 +13,6 @@ public class MainCreativeTab extends CreativeModeTab {
 
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(RegistryHandler.FOAM.get());
+        return new ItemStack(ModItems.FOAM.get());
     }
 }
