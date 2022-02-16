@@ -22,6 +22,7 @@ public class ModBlocks {
     // Blocks
     public static final RegistryObject<Block> SOFTPLAY_BLOCK = BLOCKS.register("softplay_block", SoftplayBlock::new);
     public static final RegistryObject<Block> SOFTPLAY_PILLAR = BLOCKS.register("softplay_pillar", SoftplayPillar::new);
+    public static final RegistryObject<Block> SOFTPLAY_PILLAR_END = BLOCKS.register("softplay_pillar_end", SoftplayPillar::new);
 
     public static final RegistryObject<Block> NEPTUNIUM_BLOCK = BLOCKS.register("neptunium_block", NeptuniumBlock::new);
     public static final RegistryObject<Block> RAW_NEPTUNIUM_BLOCK = BLOCKS.register("raw_neptunium_block", RawNeptuniumBlock::new);
