@@ -8,6 +8,7 @@ import com.moltenwolfcub.playtime.blocks.NeptuniumOre;
 import com.moltenwolfcub.playtime.blocks.NetherNeptuniumOre;
 import com.moltenwolfcub.playtime.blocks.RawNeptuniumBlock;
 import com.moltenwolfcub.playtime.blocks.SoftplayBlock;
+import com.moltenwolfcub.playtime.blocks.SoftplayPillar;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,6 +21,8 @@ public class ModBlocks {
 
     // Blocks
     public static final RegistryObject<Block> SOFTPLAY_BLOCK = BLOCKS.register("softplay_block", SoftplayBlock::new);
+    public static final RegistryObject<Block> SOFTPLAY_PILLAR = BLOCKS.register("softplay_pillar", SoftplayPillar::new);
+
     public static final RegistryObject<Block> NEPTUNIUM_BLOCK = BLOCKS.register("neptunium_block", NeptuniumBlock::new);
     public static final RegistryObject<Block> RAW_NEPTUNIUM_BLOCK = BLOCKS.register("raw_neptunium_block", RawNeptuniumBlock::new);
     public static final RegistryObject<Block> NEPTUNIUM_ORE_BLOCK = BLOCKS.register("neptunium_ore", NeptuniumOre::new);

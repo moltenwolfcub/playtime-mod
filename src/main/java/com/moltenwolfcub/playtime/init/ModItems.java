@@ -36,6 +36,9 @@ public class ModItems {
     public static final RegistryObject<Item> SOFTPLAY_BLOCK_ITEM = ITEMS.register("softplay_block", 
         () -> new BlockItemBase(ModBlocks.SOFTPLAY_BLOCK.get()));
 
+    public static final RegistryObject<Item> SOFTPLAY_PILLAR_ITEM = ITEMS.register("softplay_pillar", 
+    () -> new BlockItemBase(ModBlocks.SOFTPLAY_PILLAR.get()));
+
     public static final RegistryObject<Item> NEPTUNIUM_BLOCK_ITEM = ITEMS.register("neptunium_block", 
         () -> new BlockItemBase(ModBlocks.NEPTUNIUM_BLOCK.get()));
 

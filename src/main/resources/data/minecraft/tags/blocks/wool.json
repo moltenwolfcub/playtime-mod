@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "playtime:softplay_block"
+        "playtime:softplay_block",
+        "playtime:softplay_pillar"
     ]
 }

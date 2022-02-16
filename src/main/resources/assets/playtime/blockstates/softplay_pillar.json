@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=up": {"model": "playtime:block/softplay_pillar"},
+        "facing=down": {"model": "playtime:block/softplay_pillar"},
+        "facing=north": {"model": "playtime:block/softplay_pillar", "x": 90},
+        "facing=south": {"model": "playtime:block/softplay_pillar", "x": 90},
+        "facing=east": {"model": "playtime:block/softplay_pillar","x": 90, "y": 90},
+        "facing=west": {"model": "playtime:block/softplay_pillar","x": 90, "y": 90}
+    }
+}
