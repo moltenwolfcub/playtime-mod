@@ -6,14 +6,14 @@ showAsResourcePack=false
 
 [[mods]]
 modId="playtime"
-version="1.18.1-1.0.0"
+version="1.18.1-0.0.0"
 displayName="Playtime"
 displayURL="https://github.com/moltenwolfcub/playtime-mod"
 logoFile="logo.png"
-credits="Made by me, MoltenWolfCub, alone"
+credits="Made by MoltenWolfCub"
 authors="MoltenWolfCub"
 description='''
-All the fun in one mod.
+All the playtime and party fun.
 '''
 
 [[dependencies.playtime]]
