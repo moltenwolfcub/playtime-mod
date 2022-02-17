@@ -11,6 +11,10 @@ public enum ModItemTier implements Tier{
 
     FOAM(0, 100, 3.0f, 1.0f, 5, () -> {
         return Ingredient.of(ModItems.FOAM.get());
+    }),
+
+    NEPTUNIUM(4, 2300, 10.0f, 5.0f, 18, () -> {
+        return Ingredient.of(ModItems.NEPTUNIUM_INGOT.get());
     });
 
     private final int level;

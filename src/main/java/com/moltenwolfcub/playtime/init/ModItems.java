@@ -38,10 +38,10 @@ public class ModItems {
         () -> new BlockItemBase(ModBlocks.SOFTPLAY_BLOCK.get()));
 
     public static final RegistryObject<Item> SOFTPLAY_PILLAR_ITEM = ITEMS.register("softplay_pillar", 
-    () -> new BlockItemBase(ModBlocks.SOFTPLAY_PILLAR.get()));
+        () -> new BlockItemBase(ModBlocks.SOFTPLAY_PILLAR.get()));
 
     public static final RegistryObject<Item> SOFTPLAY_PILLAR_END_ITEM = ITEMS.register("softplay_pillar_end", 
-    () -> new BlockItemBase(ModBlocks.SOFTPLAY_PILLAR_END.get()));
+        () -> new BlockItemBase(ModBlocks.SOFTPLAY_PILLAR_END.get()));
 
     public static final RegistryObject<Item> NEPTUNIUM_BLOCK_ITEM = ITEMS.register("neptunium_block", 
         () -> new BlockItemBase(ModBlocks.NEPTUNIUM_BLOCK.get()));
@@ -67,16 +67,32 @@ public class ModItems {
         () -> new SwordItem(ModItemTier.FOAM, 2, -2.4f, new Item.Properties().tab(Playtime.TAB)));
 
     public static final RegistryObject<PickaxeItem> FOAM_PICKAXE = ITEMS.register("foam_pickaxe", 
-        () -> new PickaxeItem(ModItemTier.FOAM, 0, -2.8f, new Item.Properties().tab(Playtime.TAB)));
+        () -> new PickaxeItem(ModItemTier.FOAM, 1, -2.8f, new Item.Properties().tab(Playtime.TAB)));
 
     public static final RegistryObject<ShovelItem> FOAM_SHOVEL = ITEMS.register("foam_shovel", 
         () -> new ShovelItem(ModItemTier.FOAM, 0.5f, -3f, new Item.Properties().tab(Playtime.TAB)));
 
     public static final RegistryObject<AxeItem> FOAM_AXE = ITEMS.register("foam_axe", 
-        () -> new AxeItem(ModItemTier.FOAM, 0.5f, -3.1f, new Item.Properties().tab(Playtime.TAB)));
+        () -> new AxeItem(ModItemTier.FOAM, 2.5f, -3.1f, new Item.Properties().tab(Playtime.TAB)));
 
     public static final RegistryObject<HoeItem> FOAM_HOE = ITEMS.register("foam_hoe", 
         () -> new HoeItem(ModItemTier.FOAM, 0, -1f, new Item.Properties().tab(Playtime.TAB)));
+
+
+    public static final RegistryObject<SwordItem> NEPTUNIUM_SWORD = ITEMS.register("neptunium_sword", 
+        () -> new SwordItem(ModItemTier.NEPTUNIUM, 3, -2.4f, new Item.Properties().tab(Playtime.TAB).fireResistant()));
+
+    public static final RegistryObject<PickaxeItem> NEPTUNIUM_PICKAXE = ITEMS.register("neptunium_pickaxe", 
+        () -> new PickaxeItem(ModItemTier.NEPTUNIUM, 1, -2.8f, new Item.Properties().tab(Playtime.TAB).fireResistant()));
+
+    public static final RegistryObject<ShovelItem> NEPTUNIUM_SHOVEL = ITEMS.register("neptunium_shovel", 
+        () -> new ShovelItem(ModItemTier.NEPTUNIUM, 1.5f, -3f, new Item.Properties().tab(Playtime.TAB).fireResistant()));
+
+    public static final RegistryObject<AxeItem> NEPTUNIUM_AXE = ITEMS.register("neptunium_axe", 
+        () -> new AxeItem(ModItemTier.NEPTUNIUM, 5.0f, -3.0f, new Item.Properties().tab(Playtime.TAB).fireResistant()));
+
+    public static final RegistryObject<HoeItem> NEPTUNIUM_HOE = ITEMS.register("neptunium_hoe", 
+        () -> new HoeItem(ModItemTier.NEPTUNIUM, -4, 0f, new Item.Properties().tab(Playtime.TAB).fireResistant()));
 
 
     // Armor

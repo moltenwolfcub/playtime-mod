@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:netherite_axe"
+    },
+    "addition": {
+        "tag": "forge:ingots/neptunium"
+    },
+    "result": {
+        "item": "playtime:neptunium_axe"
+    }
+}

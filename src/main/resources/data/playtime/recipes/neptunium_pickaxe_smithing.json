@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:netherite_pickaxe"
+    },
+    "addition": {
+        "tag": "forge:ingots/neptunium"
+    },
+    "result": {
+        "item": "playtime:neptunium_pickaxe"
+    }
+}
