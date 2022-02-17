@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "p",
+    "f"
+  ],
+  "key": {
+    "f": {
+        "item": "playtime:foam"
+    },
+    "p": {
+        "item": "playtime:softplay_pillar"
+    }
+  },
+  "result": {
+    "item": "playtime:softplay_pillar_end",
+    "count": 1
+  }
+}

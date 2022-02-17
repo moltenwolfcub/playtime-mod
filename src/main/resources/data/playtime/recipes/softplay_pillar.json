@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "sis",
+      "sis",
+      "sis"
+    ],
+    "key": {
+      "s": {
+        "item": "playtime:softplay_block"
+      },
+      "i": {
+        "tag": "forge:ingots/iron"
+      }
+    },
+    "result": {
+      "item": "playtime:softplay_pillar",
+      "count": 16
+    }
+}
