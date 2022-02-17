@@ -10,12 +10,15 @@ import com.moltenwolfcub.playtime.blocks.RawNeptuniumBlock;
 import com.moltenwolfcub.playtime.blocks.SoftplayBlock;
 import com.moltenwolfcub.playtime.blocks.SoftplayPillar;
 
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.Tag;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModBlocks {
+    public static final Tag.Named<Block> SOFTPLAY_PILLARS = BlockTags.bind("softplay_pillars");
     
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Playtime.MOD_ID);
 
