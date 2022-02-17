@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"playtime:neptunium_ore",
+		"playtime:deepslate_neptunium_ore",
+		"playtime:nether_neptunium_ore",
+		"playtime:end_neptunium_ore"
+]
+}
