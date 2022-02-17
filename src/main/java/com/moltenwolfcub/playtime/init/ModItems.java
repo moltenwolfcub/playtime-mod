@@ -30,6 +30,7 @@ public class ModItems {
     public static final RegistryObject<CocktailSausage> COCKTAIL_SAUSAGE = ITEMS.register("cocktail_sausage", CocktailSausage::new);
     public static final RegistryObject<Item> RAW_NEPTUNIUM = ITEMS.register("raw_neptunium", ItemBase::new);
     public static final RegistryObject<Item> NEPTUNIUM_INGOT = ITEMS.register("neptunium_ingot", ItemBase::new);
+    public static final RegistryObject<Item> NEPTUNIUM_NUGGET = ITEMS.register("neptunium_nugget", ItemBase::new);
 
     
     // BlockItems

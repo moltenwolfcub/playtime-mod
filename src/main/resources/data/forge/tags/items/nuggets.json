@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-      "playtime:neptunium_ingot"
+      "#forge:nuggets/neptunium"
     ]
   }
