@@ -91,5 +91,18 @@ public class ModItems {
 
     public static final RegistryObject<ArmorItem> FOAM_BOOTS = ITEMS.register("foam_boots", 
         () -> new ArmorItem(ModArmorMaterial.FOAM, EquipmentSlot.FEET, new Item.Properties().tab(Playtime.TAB)));
+
+
+    public static final RegistryObject<ArmorItem> NEPTUNIUM_HELMET = ITEMS.register("neptunium_helmet", 
+        () -> new ArmorItem(ModArmorMaterial.NEPTUNIUM, EquipmentSlot.HEAD, new Item.Properties().tab(Playtime.TAB).fireResistant()));
+
+    public static final RegistryObject<ArmorItem> NEPTUNIUM_CHESTPLATE = ITEMS.register("neptunium_chestplate", 
+        () -> new ArmorItem(ModArmorMaterial.NEPTUNIUM, EquipmentSlot.CHEST, new Item.Properties().tab(Playtime.TAB).fireResistant()));
+
+    public static final RegistryObject<ArmorItem> NEPTUNIUM_LEGGINGS = ITEMS.register("neptunium_leggings", 
+        () -> new ArmorItem(ModArmorMaterial.NEPTUNIUM, EquipmentSlot.LEGS, new Item.Properties().tab(Playtime.TAB).fireResistant()));
+
+    public static final RegistryObject<ArmorItem> NEPTUNIUM_BOOTS = ITEMS.register("neptunium_boots", 
+        () -> new ArmorItem(ModArmorMaterial.NEPTUNIUM, EquipmentSlot.FEET, new Item.Properties().tab(Playtime.TAB).fireResistant()));
     
 }

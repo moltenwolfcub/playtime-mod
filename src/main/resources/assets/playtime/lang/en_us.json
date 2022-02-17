@@ -25,5 +25,9 @@
     "item.playtime.cocktail_sausage": "Cocktail Sausage",
     "item.playtime.neptunium_ingot": "Neptunium Ingot",
     "item.playtime.neptunium_nugget": "Neptunium Nugget",
-    "item.playtime.raw_neptunium": "Raw Neptunium"
+    "item.playtime.raw_neptunium": "Raw Neptunium",
+    "item.playtime.neptunium_helmet": "Neptunium Helmet",
+    "item.playtime.neptunium_chestplate": "Neptunium Chestplate",
+    "item.playtime.neptunium_leggings": "Neptunium Leggings",
+    "item.playtime.neptunium_boots": "Neptunium Boots"
 }
