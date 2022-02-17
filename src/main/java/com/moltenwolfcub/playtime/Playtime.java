@@ -7,8 +7,10 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraft.world.item.CreativeModeTab;
 
+import com.moltenwolfcub.playtime.init.ModArmor;
 import com.moltenwolfcub.playtime.init.ModBlocks;
 import com.moltenwolfcub.playtime.init.ModItems;
+import com.moltenwolfcub.playtime.init.ModTools;
 import com.moltenwolfcub.playtime.items.group.MainCreativeTab;
 
 import org.apache.logging.log4j.LogManager;
@@ -29,6 +31,8 @@ public class Playtime
 
         ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModArmor.ARMOR_ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModTools.TOOL_ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
 
         MinecraftForge.EVENT_BUS.register(this);
     }
