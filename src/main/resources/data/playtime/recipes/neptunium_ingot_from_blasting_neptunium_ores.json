@@ -1,10 +1,10 @@
 {
-    "type": "minecraft:smelting",
+    "type": "minecraft:blasting",
     "group": "neptunium_ingot",
     "ingredient": {
-      "item": "playtime:neptunium_ore"
+      "tag": "forge:ores/neptunium"
     },
     "result": "playtime:neptunium_ingot",
     "experience": 0.7,
-    "cookingtime": 200
+    "cookingtime": 100
   }

@@ -13,7 +13,7 @@
         "tag": "minecraft:wool"
       },
       "s": {
-        "item": "minecraft:slime_ball"
+        "tag": "forge:slimeballs"
       }
     },
     "result": {

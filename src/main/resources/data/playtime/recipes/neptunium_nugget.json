@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
       {
-        "item": "playtime:neptunium_ingot"
+        "tag": "forge:ingots/neptunium"
       }
     ],
     "result": {
